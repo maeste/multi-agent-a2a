@@ -1,0 +1,27 @@
+# Core requirements
+python-dotenv>=1.0.0
+pydantic>=2.5.0
+fastapi>=0.104.0
+uvicorn>=0.24.0
+httpx>=0.25.0
+websockets>=12.0.0
+
+# A2A Protocol (will need to be replaced with actual A2A libraries once available)
+# assuming these would be installed from a custom source
+
+# Agent Frameworks
+google-adk>=0.0.1  # For Host Agent (placeholder version)
+langgraph>=0.0.15  # For Data Analysis Agent
+crewai>=0.28.0     # For Planning Agent
+
+# UI
+gradio>=4.13.0    # For Web UI (replacing Mesop)
+
+# Testing
+pytest>=7.4.3
+pytest-asyncio>=0.21.1
+
+# Utilities
+numpy>=1.26.0
+pandas>=2.1.1
+matplotlib>=3.8.0 
